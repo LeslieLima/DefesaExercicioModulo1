@@ -1,0 +1,156 @@
+/* CSS cabeçalho */
+
+header {
+    background:#BBBBBB;
+    padding: 20px 0;
+}
+
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+}
+
+nav {
+    position: absolute;
+    top: 18px;
+    right: 0;
+    margin-left: 25px;
+}
+
+nav li {
+    display: inline;
+    margin-left: 25px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #066fc5;
+    text-decoration: underline;
+}
+
+.btn-darkModeToggle {
+    padding: 8px;
+    border-radius: 10px;
+    width: 125px;
+    font-weight: 200;
+}
+/* fim CSS cabeçalho*/
+
+/* CSS Main Produtos */
+
+.banner {
+   background: url(/imagens/banner.jpg);
+   height: 350px;
+   background-repeat: no-repeat ;
+   background-position: bottom;
+   background-size: cover;
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo {
+    color: #776b6b;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    padding: 36px 0;
+}
+
+.favorito {
+    padding: 10px m !important;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 1.5%;
+    padding: 30px 20px; 
+    box-sizing: border-box; 
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos li:hover {
+    border-color: #066fc5;
+}
+
+.produtos li:active {
+    border-color: #088c19;
+}
+
+.produtos li:hover h2 {
+    font-size: 25px;
+}
+
+.produtos h2 {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.produto-descricao {
+    font-size: 18px;
+    padding: 10px 0;
+}
+
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.produto-adicionar {
+    width: 100%;
+}
+
+.titulo-botao {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* fim CSS Main Produtos */
+
+
+/* CSS Form Contato */
+
+.botao-enviar {
+    width: 100%;
+}
+
+.containerForm{
+    width: 800px; 
+    margin: 0 auto; 
+    padding: 50px 0;
+}
+
+/* fim CSS Form Contato */
+
+
+/* CSS Footer */
+
+footer {
+    text-align: center;
+    background: url(/imagens/bg.jpg);
+    padding: 40px 0;
+    color: #aca0a0;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* fim CSS Footer */
+
+
